@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Process | Elite Building Services East Midlands</title>
+    <meta name="description" content="A portal-style walkthrough of the Elite Building Services seven-stage residential construction process, from enquiry and consultation to quote, build and completion.">
+    <meta name="theme-color" content="#071637">
+    <link rel="stylesheet" href="styles.css">
+    <noscript><style>.site-loader{display:none}</style></noscript>
+</head>
+<body class="process-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="site-loader" aria-hidden="true">
+        <img src="images/ebs-logo.png" alt="">
+        <span class="loader-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Elite Building Services East Midlands home">
+                <img src="images/ebs-logo.png" width="390" height="256" alt="Elite Building Services East Midlands logo">
+                <span class="brand-copy">
+                    <strong>Elite Building Services</strong>
+                    <span>East Midlands</span>
+                </span>
+            </a>
+
+            <nav class="primary-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a class="active" href="process.html">Process</a>
+            </nav>
+
+            <div class="header-actions">
+                <a class="phone-link" href="tel:07454243502">07454 243502</a>
+                <a class="btn btn-secondary btn-small" href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27d%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener">WhatsApp</a>
+                <a class="btn btn-primary btn-small" href="index.html#enquiry">Start Enquiry</a>
+                <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="process.html">Process</a>
+        <a href="tel:07454243502">Call 07454 243502</a>
+        <a href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27d%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+
+    <main id="main">
+        <section class="page-hero control-hero" aria-labelledby="process-title">
+            <img class="page-hero-img" src="images/wip.png" alt="Residential structure and timber work during preparation">
+            <div class="container page-hero-content control-grid">
+                <div>
+                    <p class="eyebrow">Simple project route</p>
+                    <h1 id="process-title">A controlled route from first enquiry to handover.</h1>
+                    <p class="lead">The build should feel organised before work starts. Our seven-stage process keeps each step clear and easy to follow.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="index.html#enquiry">Start Your Enquiry</a>
+                        <a class="btn btn-ghost" href="#stage-details">Explore Stages</a>
+                    </div>
+                </div>
+
+                <aside class="control-screen" aria-label="Mock project portal overview">
+                    <div class="control-screen-top">
+                        <img src="images/ebs-logo.png" width="390" height="256" alt="Elite Building Services East Midlands logo">
+                        <span class="status-chip">Project EBS-0427</span>
+                    </div>
+                    <div class="control-screen-image">
+                        <img src="images/kitchen-in-progress.png" alt="Tradesperson preparing a kitchen installation inside a residential project">
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section client-portal-section" id="stage-details" aria-labelledby="stage-details-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">Client project portal</p>
+                        <h2 id="stage-details-title">Seven clear steps, one WhatsApp thread.</h2>
+                    </div>
+                    <p class="lead">Choose the stage you are in, add only the details needed, and send a clean WhatsApp update to the Elite team.</p>
+                </div>
+
+                <div class="simple-process process-page-flow client-portal" data-portal data-client-portal data-default-stage="0">
+                    <div class="portal-toolbar">
+                        <div class="portal-stage-badge" aria-live="polite">
+                            <span data-portal-stage-number>01</span>
+                            <strong data-portal-step-text>1 of 7</strong>
+                        </div>
+                        <div class="portal-project-card">
+                            <div>
+                                <span>Project details</span>
+                                <strong data-project-line>[Name] - [Address]</strong>
+                                <em data-project-type-label>Project type not set</em>
+                            </div>
+                            <button class="btn btn-secondary btn-small" type="button" data-toggle-project-details>Edit details</button>
+                        </div>
+                    </div>
+
+                    <form class="portal-project-form" data-project-details-form hidden>
+                        <div class="form-row">
+                            <div class="field">
+                                <label for="portalClientName">Name</label>
+                                <input id="portalClientName" name="name" autocomplete="name" data-project-input="name" placeholder="Your name" required>
+                            </div>
+                            <div class="field">
+                                <label for="portalProjectAddress">Address</label>
+                                <input id="portalProjectAddress" name="address" autocomplete="street-address" data-project-input="address" placeholder="Project address" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="field">
+                                <label for="portalPhone">Phone number optional</label>
+                                <input id="portalPhone" name="phone" autocomplete="tel" data-project-input="phone" placeholder="Best contact number">
+                            </div>
+                            <div class="field">
+                                <label for="portalProjectType">Project type</label>
+                                <select id="portalProjectType" name="projectType" data-project-input="projectType" required>
+                                    <option value="">Select a project type</option>
+                                    <option>Extension</option>
+                                    <option>Renovation</option>
+                                    <option>Kitchen</option>
+                                    <option>Bathroom</option>
+                                    <option>Conversion</option>
+                                    <option>Groundworks</option>
+                                    <option>Landscaping</option>
+                                    <option>New Build</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="portalProjectSummary">Short project summary</label>
+                            <textarea id="portalProjectSummary" name="summary" data-project-input="summary" placeholder="A short note about the work you are planning."></textarea>
+                        </div>
+                        <div class="portal-action-row">
+                            <button class="btn btn-primary" type="submit">Save Project Details</button>
+                            <button class="btn btn-secondary" type="button" data-cancel-project-details>Cancel</button>
+                        </div>
+                    </form>
+
+                    <div class="portal-stage-layout">
+                        <article class="current-stage-card portal-stage-card" aria-live="polite">
+                            <div class="current-stage-number">
+                                <span data-portal-stage-number>01</span>
+                                <strong data-portal-step-text>1 of 7</strong>
+                            </div>
+                            <div class="current-stage-copy">
+                                <span class="status-chip" data-portal-status>Stage 1</span>
+                                <h3 data-portal-title>Enquire</h3>
+                                <p><strong>What happens now:</strong> <span data-portal-summary>Tell us what you are planning through a short WhatsApp enquiry.</span></p>
+                                <div class="portal-meta-row">
+                                    <div>
+                                        <span>Timing</span>
+                                        <strong data-portal-timing>First reply within 1-2 working days</strong>
+                                    </div>
+                                    <div>
+                                        <span>What happens next</span>
+                                        <strong data-portal-next>We confirm the right route and ask for consultation details if needed.</strong>
+                                    </div>
+                                </div>
+                                <div class="stage-action-panel" data-stage-action-panel></div>
+                            </div>
+                        </article>
+
+                        <aside class="portal-helper-card">
+                            <span class="status-chip">What to do now</span>
+                            <h3 data-helper-title>Start with the basics.</h3>
+                            <ul class="portal-checklist" data-portal-checklist></ul>
+                            <p class="portal-note">Every button opens WhatsApp to 07454 243502 with a structured message. If photos are needed, attach them in WhatsApp before sending.</p>
+                        </aside>
+                    </div>
+
+                    <div class="simple-stage-flow client-stage-flow" aria-label="Project stages">
+                        <button class="simple-stage is-active" type="button" data-stage="0"><span>1</span>Enquire</button>
+                        <button class="simple-stage" type="button" data-stage="1"><span>2</span>Consult</button>
+                        <button class="simple-stage" type="button" data-stage="2"><span>3</span>Quote</button>
+                        <button class="simple-stage" type="button" data-stage="3"><span>4</span>Preparation</button>
+                        <button class="simple-stage" type="button" data-stage="4"><span>5</span>Build Commencement</button>
+                        <button class="simple-stage" type="button" data-stage="5"><span>6</span>Walkthrough</button>
+                        <button class="simple-stage" type="button" data-stage="6"><span>7</span>Completion</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-band" aria-labelledby="process-cta-title">
+            <div class="container cta-grid">
+                <div class="cta-copy">
+                    <p class="section-kicker">Ready to begin</p>
+                    <h2 id="process-cta-title">A clear quote starts with a clear first conversation.</h2>
+                    <p class="lead">Send the photos, plans or rough idea you have. We will tell you what is enough for an initial view and what is needed before a formal quotation.</p>
+                </div>
+                <div class="contact-cards">
+                    <a class="contact-card" href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27d%20like%20to%20start%20a%20project%20enquiry" target="_blank" rel="noopener">
+                        <span>WhatsApp</span>
+                        <strong>Send project photos</strong>
+                    </a>
+                    <a class="contact-card" href="tel:07454243502">
+                        <span>Phone</span>
+                        <strong>07454 243502</strong>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img class="footer-logo" src="images/ebs-logo.png" width="390" height="256" alt="Elite Building Services East Midlands logo">
+                    <p>Premium residential construction, renovations, extensions, conversions, groundworks and landscaping across Derbyshire and the East Midlands.</p>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-list">
+                        <li><a href="services.html#extensions">Extensions</a></li>
+                        <li><a href="services.html#renovations">Renovations</a></li>
+                        <li><a href="services.html#new-builds">New builds</a></li>
+                        <li><a href="services.html#conversions">Conversions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul class="footer-list">
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="index.html#enquiry">Start enquiry</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-list">
+                        <li><a href="tel:07454243502">07454 243502</a></li>
+                        <li><a href="mailto:info@ebseastmidlands.co.uk">info@ebseastmidlands.co.uk</a></li>
+                        <li>Derbyshire, East Midlands</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright 2026 Elite Building Services East Midlands.</p>
+                <p>Quality building. Clear process. Exceptional results.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-enquiry" data-floating-enquiry>
+        <button class="floating-enquiry-toggle" type="button" aria-expanded="false" aria-controls="floatingEnquiryPanel">
+            <span>WA</span>
+            <strong>Enquire</strong>
+        </button>
+        <div class="floating-enquiry-panel" id="floatingEnquiryPanel">
+            <p>Start with photos, plans or a rough idea.</p>
+            <a href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27d%20like%20to%20start%20an%20enquiry.%20I%20can%20send%20photos%20of%20the%20project%20area." target="_blank" rel="noopener">General enquiry</a>
+            <a href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27m%20planning%20an%20extension.%20I%20can%20send%20clear%20photos%20of%20the%20area%2C%20access%20and%20levels." target="_blank" rel="noopener">Extension photo enquiry</a>
+            <a href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27m%20planning%20a%20kitchen%20renovation.%20I%20can%20send%20current%20photos%20and%20rough%20dimensions." target="_blank" rel="noopener">Kitchen renovation enquiry</a>
+            <a href="tel:07454243502">Call 07454 243502</a>
+        </div>
+    </div>
+
+    <div class="mobile-contact-bar" aria-label="Quick contact">
+        <a href="https://wa.me/447454243502?text=Hi%20Elite%20Building%20Services%2C%20I%27d%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="tel:07454243502">Call</a>
+        <a href="index.html#enquiry">Enquire</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
